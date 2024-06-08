@@ -13,6 +13,13 @@
 
 		#define SR_PLATFORM_IDENTIFIER_A "Special Edition Steam"
 		#define SR_PLATFORM_IDENTIFIER_W L"Special Edition Steam"
+/*
+		#define SR_FOLDER_SUFFIX_A " VR"
+		#define SR_FOLDER_SUFFIX_W L" VR"
+
+		#define SR_PLATFORM_IDENTIFIER_A "VR Steam"
+		#define SR_PLATFORM_IDENTIFIER_W L"VR Steam"
+*/
 	#endif
 #else
 	#ifdef SR_GOG
