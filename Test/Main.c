@@ -21,6 +21,7 @@ typedef bool(*SKSEPlugin_Load_t)(const SKSEInterface*);
 #define TRY(action) if(!action) return false
 
 #define SKYRIM_INI &FOLDERID_Documents, L"\\My Games\\Skyrim" SR_FOLDER_SUFFIX_W L"\\Skyrim.ini"
+//#define SKYRIM_INI &FOLDERID_Documents, L"\\My Games\\Skyrim" SR_FOLDER_SUFFIX_W L"\\SkyrimVR.ini"
 #define SKYRIM_PREFS_INI &FOLDERID_Documents, L"\\My Games\\Skyrim" SR_FOLDER_SUFFIX_W L"\\SkyrimPrefs.ini"
 #define SKYRIM_PLUGINS &FOLDERID_LocalAppData, L"\\Skyrim" SR_FOLDER_SUFFIX_W L"\\plugins.txt"
 

@@ -13,6 +13,7 @@
 
 		#define SR_PLATFORM_IDENTIFIER_A "Special Edition Steam"
 		#define SR_PLATFORM_IDENTIFIER_W L"Special Edition Steam"
+//For VR, manual changes must be made by uncommenting below, in Redirections.c (4 lines), and Main.c (1 line). I may one day make a new solution configuration.
 /*
 		#define SR_FOLDER_SUFFIX_A " VR"
 		#define SR_FOLDER_SUFFIX_W L" VR"
